@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ace Associates | Communications Marketing Firm</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for eye-catching icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-fontawesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-accent">ACE</span> ASSOCIATES
+            </div>
+            <nav>
+                <a href="#hero">Home</a>
+                <a href="#about">Who We Are</a>
+                <a href="#services">Our Services</a>
+                <a href="#team">Our Team</a>
+                <a href="#contact" class="btn-nav">Get In Touch</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-tagline">Evolve. Promote. Protect.</span>
+            <h1>We Craft Communications <br><span class="highlight">That Build Lasting Trust</span></h1>
+            <p>Ace Associates is a premier communications marketing firm partnering with leading businesses and organizations to protect their reputations and drive continued growth.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn-primary">Explore Services</a>
+                <a href="#contact" class="btn-secondary">Partner With Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who We Are / About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Who <span class="text-gradient">We Are</span></h2>
+                    <p class="lead">Ace Associates partners with top leading businesses and organizations to evolve, promote, and protect their brands and reputations.</p>
+                    <p>Our proven strategy is to engage audiences over time to earn their lasting trust—the strongest insurance against competitive disruption, the antidote to consumer indifference, and the best path to continued growth.</p>
+                </div>
+                <div class="about-cards">
+                    <div class="vision-card">
+                        <div class="card-icon"><i class="fa-solid fa-eye"></i></div>
+                        <h3>Our Vision</h3>
+                        <p>To be the leading public relations, communication marketing, and digital solutions provider.</p>
+                    </div>
+                    <div class="mission-card">
+                        <div class="card-icon"><i class="fa-solid fa-bullseye"></i></div>
+                        <h3>Our Mission</h3>
+                        <p>To provide public relations counsel and strategic communications services which enable our clients to build strong relationships and influence attitudes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section with Interactive Tabs -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>What <span class="text-gradient">We Do</span></h2>
+                <p>We offer integrated communication, branding, digital, events, web design, and UX solutions. Explore our complete suite of specialized services below.</p>
+            </div>
+
+            <!-- Tab Navigation Layout -->
+            <div class="tabs-container">
+                <div class="tab-navigation">
+                    <button class="tab-btn active" data-tab="pr">
+                        <i class="fa-solid fa-microphone"></i> Public Relations
+                    </button>
+                    <button class="tab-btn" data-tab="branding">
+                        <i class="fa-solid fa-id-card"></i> Corporate Branding
+                    </button>
+                    <button class="tab-btn" data-tab="digital">
+                        <i class="fa-solid fa-chart-line"></i> Digital Marketing
+                    </button>
+                    <button class="tab-btn" data-tab="webux">
+                        <i class="fa-solid fa-laptop-code"></i> Web Design & UX
+                    </button>
+                    <button class="tab-btn" data-tab="events">
+                        <i class="fa-solid fa-calendar-days"></i> Event Management
+                    </button>
+                    <button class="tab-btn" data-tab="training">
+                        <i class="fa-solid fa-graduation-cap"></i> Consultancy Training
+                    </button>
+                </div>
+
+                <!-- Tab Content Sections -->
+                <div class="tab-content-wrapper">
+                    
+                    <!-- Tab 1: Public Relations -->
+                    <div class="tab-content active" id="pr">
+                        <h3>Public Relations</h3>
+                        <p class="tab-intro">We provide comprehensive public relations services to help businesses and organizations build and maintain a positive public image.</p>
+                        <ul class="service-list">
+                            <li><i class="fa-solid fa-check"></i> <strong>Media Kits Development:</strong> Professional media kits communicating your brand's unique story.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Information, Education & Communication:</strong> Tailored materials to inform your target audience.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Editorial Support:</strong> Expert content creation and editing for publications.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Customer Care Training:</strong> Equipping your internal teams with exceptional service skills.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Media Buy-In:</strong> Securing high-profile placements on radio, television, and print.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Press Conferences:</strong> Managing press events to ensure maximum positive media coverage.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tab 2: Corporate Branding -->
+                    <div class="tab-content" id="branding">
+                        <h3>Corporate Branding</h3>
+                        <p class="tab-intro">We help businesses create and enhance their brand identity to stand out boldly in competitive markets.</p>
+                        <ul class="service-list">
+                            <li><i class="fa-solid fa-check"></i> <strong>Brand Identity Development:</strong> Designing modern logos and complete usage guidelines.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Personal & Company Branding:</strong> Marketing your core executive profile to key target audiences.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>TV Advertising Concepts:</strong> Developing highly creative concepts for commercials.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Audiovisual Marketing:</strong> Crafting engaging video and audio campaigns.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tab 3: Digital Marketing -->
+                    <div class="tab-content" id="digital">
+                        <h3>Digital Marketing</h3>
+                        <p class="tab-intro">We specialize in designing and executing modern digital strategies to exponentially grow your online presence.</p>
+                        <ul class="service-list">
+                            <li><i class="fa-solid fa-check"></i> <strong>Digital Media Strategy:</strong> Designing customized, result-driven digital campaigns.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Online Profile Building:</strong> Establishing authority across leading social media platforms.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Social Media Marketing:</strong> Creative performance marketing tailored for dynamic audiences.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Brand Growth Online:</strong> Continuous data-backed scaling of your digital metrics.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tab 4: Web Design & UX -->
+                    <div class="tab-content" id="webux">
+                        <h3>Web Design & UX</h3>
+                        <p class="tab-intro">We design user-centric websites that are visually compelling, easily navigable, and optimized for high-performance conversion.</p>
+                        <ul class="service-list">
+                            <li><i class="fa-solid fa-check"></i> <strong>Custom Website Design:</strong> Mobile-responsive, custom designs aligned with your goals.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>UX/UI Engineering:</strong> Thorough user research, wireframing, and interactive prototyping.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>E-commerce Development:</strong> Secure, fast online storefronts with streamlined checkout systems.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>CMS Implementations:</strong> Easily managed platforms using WordPress, Webflow, or custom platforms.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Maintenance & Optimization:</strong> Ongoing updates, security monitoring, and speed improvements.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tab 5: Event Management -->
+                    <div class="tab-content" id="events">
+                        <h3>Event Management</h3>
+                        <p class="tab-intro">We offer end-to-end event planning, coordination, and execution services to ensure flawless brand experiences.</p>
+                        <ul class="service-list">
+                            <li><i class="fa-solid fa-check"></i> <strong>Event Planning:</strong> Meticulous venue selection and logistics for corporate and private events.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>On-Site Event Management:</strong> Directing activities live to ensure an integrated, premium experience.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Post-Event Management:</strong> Overseeing detailed follow-ups, analytics, and security audits.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tab 6: Consultancy Training -->
+                    <div class="tab-content" id="training">
+                        <h3>Consultancy Training</h3>
+                        <p class="tab-intro">Specialized corporate programs designed to enhance organizational capability and individual skill sets.</p>
+                        <ul class="service-list">
+                            <li><i class="fa-solid fa-check"></i> <strong>Customer Service Management:</strong> Cultivating long-lasting, highly-rated client interactions.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Leadership Development:</strong> Mentoring high-potential leaders with tools to motivate.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Resource Mobilization:</strong> Strategies to discover, secure, and grow dynamic asset portfolios.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>ESG Principles:</strong> Integrating Environmental, Social, and Governance parameters responsibly.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet Our Team Section -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meet Our <span class="text-gradient">Leadership</span></h2>
+                <p>At Ace Associates, our strength lies in our people—experienced industry leaders committed to visual storytelling and reputation engineering.</p>
+            </div>
+            <div class="team-grid">
+                <!-- CEO -->
+                <div class="team-card">
+                    <div class="team-img-placeholder">PN</div>
+                    <div class="team-info">
+                        <h4>Provia Nangobi</h4>
+                        <span class="role">C.E.O</span>
+                        <p>With over 15 years of experience in public relations and corporate communications, Provia leads the firm with vision.</p>
+                    </div>
+                </div>
+                <!-- Creative Director -->
+                <div class="team-card">
+                    <div class="team-img-placeholder">AK</div>
+                    <div class="team-info">
+                        <h4>Ashraf Karara</h4>
+                        <span class="role">Creative Director</span>
+                        <p>Leads the development of innovative, visually compelling campaigns that captivate digital audiences.</p>
+                    </div>
+                </div>
+                <!-- Brand Strategist -->
+                <div class="team-card">
+                    <div class="team-img-placeholder">GB</div>
+                    <div class="team-info">
+                        <h4>Grace Babirye</h4>
+                        <span class="role">Senior Brand Strategist</span>
+                        <p>Expert in deep corporate identity development, assisting brands with strategic global positioning.</p>
+                    </div>
+                </div>
+                <!-- Designer -->
+                <div class="team-card">
+                    <div class="team-img-placeholder">JT</div>
+                    <div class="team-info">
+                        <h4>John Tulibagenyi</h4>
+                        <span class="role">Graphics Designer</span>
+                        <p>Transforms raw conceptual briefs into impactful visuals that instantly connect with client goals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact Section -->
+    <footer id="contact">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h3>ACE <span class="brand-light">ASSOCIATES</span></h3>
+                <p>An integrated communication, marketing, and reputation advisory firm. Let's create something brilliant together.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Details</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Platinum Chambers, Plot 78, Ssemawata Road, Ntinda, Kampala</p>
+                <p><i class="fa-solid fa-phone"></i> +256 782 051 018 | +256 775 201 188</p>
+                <p><i class="fa-solid fa-envelope"></i> aceassociates.info@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ace Associates. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
