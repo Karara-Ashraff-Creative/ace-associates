@@ -362,7 +362,7 @@ nav a:hover {
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 2rem;
 }
 
@@ -380,15 +380,23 @@ nav a:hover {
     box-shadow: 0 12px 25px rgba(0,0,0,0.08);
 }
 
-.team-img-placeholder {
-    height: 180px;
-    background: var(--gradient-brand);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.5rem;
-    font-weight: 800;
+/* Team Image Responsive Container */
+.team-img-container {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    background: var(--gradient-brand); /* Background gradient shows while loading */
+}
+
+.team-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This makes sure photos don't stretch or squish */
+    transition: var(--transition-quick);
+}
+
+.team-card:hover .team-img {
+    transform: scale(1.05); /* Subtle zoom effect when you hover over cards */
 }
 
 .team-info {
